@@ -49,16 +49,16 @@ is repeated k times, with each fold being used as the test set once, and the ave
 Our preliminary results indicate that all the feature extraction techniques used have shown a decent performance with the logistic regression model. However, n-grams have the highest accuracy, followed closely by Named Entity Recognition n-grams combi- nation and NER alone. At last, the lowest accuracy is obtained for Sentiment analysis. However, the use of n-grams has given an accuracy of around 98% which is almost impossible in case of fake news detection. This suggests some ambiguity in the data set with regard to n-grams. The quality and characteristics of the dataset used can have a significant impact on model performance. It’s possible that the n-grams in the text column were more informative and relevant for identifying fake news than the named entities identified by the NER algorithm.
 ### Named Entity Recognition
 The results demonstrate that this feature has a moderately strong correlation with the target variable, indicating that it is a relevant predictor for the model. However, there may be other features that have a stronger influence on the outcome. Therefore, it is recommended to keep this feature in the model, but also to explore the potential impact of additional features.
-<br><img src="images/ner_results" width="300"><br>
+<br><img src="images/ner_results.png" width="300"><br>
 ### Sentiment Analysis
 The analysis shows that this feature has a very low correlation with the target variable, indicating that it has little predictive power. It may be worth considering removing this feature from the model, as it is unlikely to contribute significantly to the overall performance.
-<br><img src="images/sentiment_analysis_results" width="300"><br>
+<br><img src="images/sentiment_analysis_results.png" width="300"><br>
 ### N-grams
 The results show that this feature significantly con- tributes to the model’s predictive power. The high correlation between this feature and the target variable suggests that it is an important factor in determining the outcome of the model.
-<br><img src="images/ngrams_results" width="300"><br>
+<br><img src="images/ngrams_results.png" width="300"><br>
 ### NER and n-grams combination
 The results indicate that this feature plays a crucial role in enhancing the predictive capability of the model. The strong association between this feature and the target variable implies that it holds substantial importance in determining the model’s outcome.
-<br><img src="images/ner_ngrams_results" width="300"><br>
+<br><img src="images/ner_ngrams_results.png" width="300"><br>
 On the other hand, informal language often includes more colloquialisms, slang, and non-standard grammar, which can be more difficult for sentiment analysis algorithms to interpret. Additionally, informal language can sometimes use sarcasm, irony, or other figurative language that can be challenging for sentiment analysis models to recognize.
 <br>Therefore, when creating a sentiment analysis or NER model, it is important to consider the type of language that will be used in the text data and adjust the model accordingly to maximize its performance.
 ## Conclusion
