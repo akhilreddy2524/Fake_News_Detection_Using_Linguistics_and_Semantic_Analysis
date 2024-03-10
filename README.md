@@ -1,4 +1,6 @@
 # Fake News Detection Using Linguistics and Semantic Analysis
+### Project Timeline Note: 
+This project was originally developed between September 2022 and December 2022. However, it has been recently uploaded to GitHub for sharing and documentation purposes. While the commit history may not reflect the original development timeline, feel free to explore the project and reach out with any questions or feedback.
 ## Project Description
 This project investigates the efficacy of logistic regression, semantic analysis, and linguistic analysis in identifying fake news, aiming to develop an automated model for classification. By analyzing linguistic and semantic features, we aim to contribute to the fight against misinformation, protecting individuals and society from its harmful effects. Through rigorous testing and validation using a dataset comprising true and false news articles, we demonstrate the effectiveness of various feature extraction techniques, including n-grams and Named Entity Recognition (NER), with logistic regression models. Our findings underscore the importance of tailored approaches in fake news detection and emphasize the need for continued research to refine methods for combating misinformation effectively.
 ## Dataset Description
